@@ -7,6 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="script.css"></script>
+    <div class="container">
+        <div id="title">Random Password Generator</div>
+        <section id="topSection">
+            <div><label for="">Length</label><input type="number" placeholder="8" value="8" maxlength="19" id="pwLength"></div>
+            <div><label for="">Digits</label><input type="checkbox" id="digits" checked></div>
+            <div><label for="">Special characters</label><input type="checkbox" id="specialChar" checked></div>
+            <div><label for="">Include Uppercase letters</label><input type="checkbox" id="upperCase" checked></div>
+            <!-- <div><label for="">Do not use these characters</label><input type="text"></div> -->
+        </section>
+        <section id="middleSection">
+            <div id="lockHead"></div>
+            <div id="lockBody">
+                <div id="password">xxxxxxExamplexxxxxx</div>
+            </div>
+            <div><button id="generateBtn">+</button></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

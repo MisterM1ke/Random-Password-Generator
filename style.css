@@ -36,7 +36,7 @@ section {
     display: flex;
     background-color: #232c32;
     padding: 15px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 #topSection div{
@@ -58,6 +58,7 @@ section {
 
 #topSection div input{
     width: 30px;
+    height: 25px;
     border-radius: 5px;
     border-style: none; 
     text-align: center; 
@@ -66,35 +67,39 @@ section {
 
 #topSection div input[type=checkbox]{
     width: 25px;
-    height: 25px;  
+    height: 25px;
 }
 
 
 #lockHead {
     display: flex;
     background-color: #daa520;
+    /* background-color: #3c4c54; */
     height: 130px;
-    width: 210px;
-    border-radius: 100px 100px 0 0;
-    margin-top: 50px;
-    
+    width: 230px;
+    border-radius: 115px 115px 0 0;
+    margin-top: 40px;
+    /* border: white solid 1px; */
 }
 
 #lockBody {
     display: flex;
     background-color: #daa520;
+    /* background-color: #3c4c54; */
     height: 200px;
-    width: 300px;
+    width: 350px;
     border-radius: 30px;
     justify-content: center;
     align-items: center;
+    /* border: white solid 1px; */
+
 }
 
 #password {
     display: flex;
     background-color: white;
     height: 50px;
-    width: 250px;
+    width: 310px;
     /* color: white; */
     align-items: center;
     justify-content: center;
@@ -103,19 +108,20 @@ section {
 }
 
 #generateBtn {
-    margin: 50px;
-    width: 50px;
-    height: 50px;
+    margin: 40px;
+    width: 70px;
+    height: 70px;
     font-size: xx-large;
-    border-radius: 25px;
-    border: none;    
+    border-radius: 35px;
+    border: none;
+    background-color: blue;
+    color: white;
 }
 
 #generateBtn:hover {
-    background-color: white;
+    /* background-color: white; */
     /* rotate: 45deg; */
     animation: spin 2s;
-    background-color: #8a8a8a;
 }
 
 @keyframes spin {
